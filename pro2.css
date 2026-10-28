@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: Manrope, sans-serif;
+}
+.img {
+  width: 100%;
+  height: 754px;
+  background-image: url(image.png);
+  background-image: center;
+  background-position: right;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+}
+nav a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+nav button {
+  border: 0;
+  background-color: #f84646;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+aside {
+  padding: 200px 653px 148px 122px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+aside h2 {
+  font-size: 64px;
+  font-weight: 800;
+  color: #000000;
+}
+aside p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.sign-up {
+  border: 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 502px;
+  height: 73px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+aside input {
+  border: 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 502px;
+  height: 73px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border: none;
+}
+aside button {
+  border: 0px;
+  padding: 10px 30px;
+  background-color: #f84646;
+  border-radius: 8px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+main {
+  padding: 120px 140px;
+}
+main h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+main p {
+  font-weight: 400;
+  font-size: 24px;
+}
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.main-footer {
+  margin-top: 90px;
+  max-width: 1153px;
+  height: 508px;
+  display: flex;
+  gap: 116px;
+  flex-wrap: wrap;
+}
+.main-footer h3 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.main-footer p {
+  font-weight: 400;
+  font-size: 18px;
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 300px;
+}
+.parent {
+  position: relative;
+  width: 76px;
+}
+.circle {
+  border: 0;
+  border-radius: 50%;
+  background-color: #ff5391;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+.circle1 {
+  border: 0;
+  border-radius: 50%;
+  background-color: #7553ff;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.circle2 {
+  border: 0;
+  border-radius: 50%;
+  background-color: #53c1ff;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+.circle3 {
+  border: 0;
+  border-radius: 50%;
+  background-color: #53c1ff;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.circle4 {
+  border: 0;
+  border-radius: 50%;
+  background-color: #ff5353;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+.circle5 {
+  border: 0;
+  border-radius: 50%;
+  background-color: #ffba53;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.goal {
+  margin-top: 30px;
+  background-color: #f84646;
+  width: 100%;
+  height: 380px;
+}
+.goal h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+.goal p {
+  font-weight: 400;
+  font-size: 18px;
+}
+.goal-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 68px;
+}
+.goal-footer {
+  margin-top: 60px;
+  padding: 0px 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.goal-footer p {
+  width: 200px;
+}
+
+.process {
+  margin-top: 160px;
+  padding: 0px 120px;
+}
+.process h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
+.process p {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #808080;
+}
+.process-header {
+  display: flex;
+  gap: 170px;
+}
+.process-header-left {
+  width: 50%;
+}
+.process-header-left button {
+  margin-top: 80px;
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 24px;
+  background-color: #f84646;
+  color: #ffffff;
+}
+.process-header-right img {
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+}
