@@ -12,3 +12,13 @@
   position: relative;
   width: 76px;
 }
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
