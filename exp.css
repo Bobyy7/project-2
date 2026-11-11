@@ -1,0 +1,24 @@
+.circle {
+  border: 0;
+  border-radius: 50%;
+  background-color: #ff5391;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+.parent {
+  position: relative;
+  width: 76px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
